@@ -1,3 +1,14 @@
+#'Euclidean Algorithm 
+#'
+#'Algorithm to look for the GCD of two numbers
+#'
+#'@param a A number
+#'@param b A number
+#'@return The GCD of \code{a} and \code{b}
+#'
+#'@references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+
+
 euclidean <- function(a, b)
 {
   rk_1 <- a;

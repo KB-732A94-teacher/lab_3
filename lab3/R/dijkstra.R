@@ -1,3 +1,13 @@
+#'Dijkstra Algorithm 
+#'
+#'Shortest path between nodes in a graph
+#'
+#'@param graph A data frame 
+#'@param init_value A number
+#'@return A vector with distances
+#'
+#'@references \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
+
 dijkstra <- function(graph, init_value){
   q <- vector()
   distance <- vector()
