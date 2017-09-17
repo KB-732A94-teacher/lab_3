@@ -11,6 +11,8 @@
 
 euclidean <- function(a, b)
 {
+  if(!is.numeric(a)){stop()}
+  if(!is.numeric(b)){stop()}
   rk_1 <- a;
   rk_2 <- b;
   # Recurrence Formula:  r_k =  r_k-1 modulo r_k-2

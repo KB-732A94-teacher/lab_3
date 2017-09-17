@@ -8,3 +8,6 @@ Maintainer: Alejandro Garcia <alega695@student.liu.se>
 Description: This packages is a lab from the Advance R Programming course.
 License: GPL-2
 RoxygenNote: 6.0.1
+Suggests: testthat
+Depends: R (>= 2.10)
+LazyData: true

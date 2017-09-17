@@ -9,6 +9,11 @@
 #'@references \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm}
 
 dijkstra <- function(graph, init_value){
+  if(!is.data.frame(graph)){stop("graph value is not a data frame")}
+  if(!is.numeric(init_value)){stop("init value is not a number")}
+  if(length(graph)!= 3){stop("Incorrect graph structure")}
+  if(!all(names(graph) == c("v1","v2","w"))){stop("Incorrect graph structure")}
+  if(init_value > max(graph$v1)){stop("There is not a node that big")}
   q <- vector()
   distance <- vector()
   prev <- vector()
