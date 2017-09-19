@@ -1,4 +1,4 @@
-#'Dijkstra Algorithm 
+#'Dijkstra's Algorithm 
 #'
 #'Shortest path between nodes in a graph
 #'
