@@ -7,5 +7,7 @@
 #' dijkstra, euclidean
 #'
 #' @docType package
-#' @name lab3-package
+#' 
+#' @name lab3
+#' @export
 NULL
