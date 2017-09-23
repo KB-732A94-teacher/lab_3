@@ -2,7 +2,7 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra Algorithm}
+\title{Dijkstra's Algorithm}
 \usage{
 dijkstra(graph, init_value)
 }
